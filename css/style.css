@@ -1,0 +1,14 @@
+.table {
+    display: grid;
+    grid-template:  repeat(3, 1fr) / repeat(3, 1fr);
+    height: 200px;
+    width: 200px;
+}
+
+.cell {
+    border:1px solid grey;
+    font-family: "Lato", sans-serif;
+    color: hotpink;
+    text-align: center;
+    padding-top: 25px;
+}
